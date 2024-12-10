@@ -1,0 +1,51 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.0.0 # Menambahkan pustaka ikon
+  url_launcher: ^6.0.0 # Menambahkan pustaka url_launcher
+  google_fonts: ^4.0.3 # Pastikan ini ditambahkan
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/profile.jpg # Menambahkan asset gambar profile.jpg
+    - assets/icons/instagram.png
+    - assets/icons/tik-tok.png
+    - assets/icons/wisata.png
+    - assets/icons/facebook.png
+    - assets/project1.jpeg
+    - assets/project2.jpeg
+    - assets/project3.png
+    - assets/pantai.jpeg
+    - assets/pantai_natsepa.jpeg
+    - assets/pantai_liang.jpeg
+    - assets/pantai_hukurila.jpeg
+    - assets/AIR_TERJUN.jpeg
+    - assets/airterjun_lumoli.jpeg
+    - assets/airterjun_taeno.jpeg
+    - assets/airterjun_waai.jpeg
+    - assets/airterjun_talaga_pange.jpg
+    - assets/kuliner.jpeg
+    - assets/papeda.jpeg
+    - assets/ikanbakar.jpeg
+    - assets/kohu2.jpeg
+    - assets/budaya.jpeg
+    - assets/cakalele.jpeg
+    - assets/amsterdam.jpeg
+    - assets/gongperdamaian.jpeg
